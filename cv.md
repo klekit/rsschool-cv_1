@@ -41,5 +41,11 @@ const quarterOf = (month) => {
 ## Work experience:
 No work experience yet
 
+## Education and courses:
 
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
+## Language:
+
+English level - A1
 
