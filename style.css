@@ -4,6 +4,14 @@
 
 html {
     scroll-behavior: smooth;
+
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -55,4 +63,72 @@ img {
 
 .nav-item a:hover {
     color: #4d2323;
+}
+
+.section-title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 22px;
+    color: darkblue;
+}
+
+.container-footer {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    margin: 0px;
+}
+
+.year {
+    background: rgb(240, 224, 159);
+    display: flex;
+    padding-top: 5px;
+    flex: 0.1;
+}
+
+.login {
+    background: rgb(240, 224, 159);
+    display: flex;
+    flex: 1.2;
+    padding-top: 5px;
+
+}
+
+.login a {
+    color: #829985;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.login a:hover {
+    color: #4d2323;
+}
+
+.href-school {
+    background: rgb(240, 224, 159);
+    text-decoration: none;
+    padding-top: 5px;
+    display: flex;
+    flex: 0.1;
+}
+
+.href-school a {
+    color: #829985;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.href-school a:hover {
+    color: #4d2323;
+}
+
+
+.rss {
+    width: 78px;
+    height: 28px;
+    background: rgb(240, 224, 159);
+    background-image: url("./assets/rsschool.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
 }
