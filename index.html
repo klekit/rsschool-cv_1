@@ -79,20 +79,52 @@
                         <li>CSS</li>
                     </ul>
                 </section>
-                <h2 class="section-title" id="code">Code example:</h2>
-                <pre>
+                <section class="section-code" id="code">
+                    <h2 class="section-title">Code example:</h2>
+                    <pre>
                     <code>
-                    function dutyFree(normPrice, discount, hol) {
-                    let x = normPrice
-                    let y = discount
-                    let z = hol
-                    b = x*y/100
-                    result = z/b
-                    return Math.trunc(result)
-                    }
+                        const quarterOf = (month) => {
+
+                            if (month <= 3) {
+                             return 1
+                           } else {
+                             if (month > 3 && month <= 6 ) {
+                               return 2
+                             } else {
+                               if (month > 6 && month <= 9 ) {
+                                 return 3
+                             }
+                             return 4
+                           }
+                         }
+                         }
                     </code>
                     </pre>
                 </section>
+                <section class="section-work" id="work">
+                    <h2 class="section-title">Work experience:</h2>
+                    <p>
+                        No work experience yet
+                    </p>
+                </section>
+                <section class="section-education" id="education">
+                    <h2 class="section-title">Education and courses:</h2>
+                    <ul>
+                        <li>RS Schools Course «JavaScript/Front-end. Stage 0»</li>
+                        <li>HTML for beginner (Hexlet)</li>
+                        <li>CSS for beginner (Hexlet)</li>
+                    </ul>
+                </section>
+                <section class="section-lang" id="language">
+                    <h2 class="section-title">Language:</h2>
+                    <ul>
+                        <li>English - level-A1</li>
+                        <li>Ukainian - native</li>
+                        <li>Russian - native</li>
+                    </ul>
+                </section>
+
+
 
 
 
