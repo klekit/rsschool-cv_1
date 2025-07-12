@@ -8,10 +8,7 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-}
-
-header {
-    border: 1px solid red;
+    color: burlywood;
 }
 
 .container {
@@ -31,4 +28,17 @@ header {
     line-height: 50px;
     color: gray;
     text-decoration: none;
+}
+
+img {
+    border-radius: 25%;
+    width: 15%;
+    height: 15%;
+    margin: 20px;
+}
+
+.section-name {
+    text-align: center;
+    line-height: 3px;
+    font-size: 22px;
 }
